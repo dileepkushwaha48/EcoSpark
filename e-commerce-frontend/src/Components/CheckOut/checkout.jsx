@@ -171,7 +171,7 @@ function Checkout() {
                                             <button type="submit" className="btn btn-primary mx-1" disabled={loading}>Place Order</button>
                                             {/* <button type="button" className="btn btn-primary mx-1" onClick={handleRazorpayPayment} disabled={loading}>Pay by Razorpay</button> */}
                                             <button type="button" className="btn btn-primary mx-1" onClick={handleCashOnDelivery} disabled={loading}>Cash On Delivery</button>
-                                            <button type="button" className="btn btn-primary mx-1" onClick={handleEsewaPayment} disabled={loading}>Pay by eSewa</button>
+                                            {/* <button type="button" className="btn btn-primary mx-1" onClick={handleEsewaPayment} disabled={loading}>Pay by eSewa</button> */}
                                         </div>
                                     </div>
                                 </div>
